@@ -33,3 +33,14 @@ npm run dev
 #prod测试环境
 npm run prod
 ```
+
+## 贡献指南
+
+修改测试完结束后输入
+git cz 设置 commit 信息
+
+```bash
+git add .
+git cz
+git push
+```
