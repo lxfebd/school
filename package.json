@@ -1,13 +1,24 @@
 {
-    "id": "scroll-list",
-    "name": "滚动列表【自动加载，上拉加载，下拉刷新，可自定义】",
-    "version": "1.1.0",
-    "description": "滚动列表【自动加载，上拉加载，下拉刷新，可自定义】",
-    "keywords": [
-        "自动加载",
-        "上拉加载",
-        "下拉刷新",
-        "可自定义",
-        "滚动"
-    ]
+  "id": "scroll-list",
+  "name": "滚动列表【自动加载，上拉加载，下拉刷新，可自定义】",
+  "version": "1.1.0",
+  "description": "滚动列表【自动加载，上拉加载，下拉刷新，可自定义】",
+  "keywords": [
+    "自动加载",
+    "上拉加载",
+    "下拉刷新",
+    "可自定义",
+    "滚动"
+  ],
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.5.0",
+    "commitizen": "^4.3.1",
+    "conventional-changelog-cli": "^5.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.2.1",
+    "husky": "^9.1.6"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
 }
