@@ -1,7 +1,7 @@
 // 应用全局配置
 module.exports = {
 	// baseURL: 'http://localhost:8160',
-	baseURL: 'https://v1.campus.oddfar.com',
+	baseURL: 'http://120.55.42.221:8160',
 	// 应用信息
 	appInfo: {
 		// 应用名称
