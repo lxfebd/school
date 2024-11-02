@@ -35,20 +35,6 @@
 			}
 
 		},
-		{
-			//小程序绑定账号
-			"path": "pages/login/bind",
-			"style": {
-				"navigationBarTitleText": "用户绑定"
-			}
-		},
-		{
-			//小程序注册账号
-			"path": "pages/login/bind-register",
-			"style": {
-				"navigationBarTitleText": "用户注册"
-			}
-		},
 		/** -----auth----- */
 		{
 			//扫码小程序登录
@@ -76,6 +62,13 @@
 			"path": "pages/c/index",
 			"style": {
 				"navigationBarTitleText": "墙"
+			}
+		},
+		{
+			"path" : "chis/chis",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
 			}
 		}
 
